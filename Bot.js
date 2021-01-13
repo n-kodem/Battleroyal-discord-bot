@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const auth = require("./auth.json");
+const auth = require("./config.json");
 const client = new Discord.Client();
 const sample = require('lodash.sample');
 const Words = ["https://discord.gg/"];
